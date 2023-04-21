@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teaching Ms. Ngo: My HTML Drum Machine</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="icon" href="https://cdn0.iconfinder.com/data/icons/audio-22/24/icon-audio-drum-machine-512.png">
+<body style="background-color:#eee">
+
+<style>
+
+.header {
+  background-color: orange;
+  text-align: center;
+  padding: 20px;
+  font-size: 22px;
+  color: #222;
+  font-family: "Century Gothic"
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 0px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #ccc; 
+  color: black; 
+  border: 2px solid grey;
+}
+
+.button1:hover {
+  background-color: #ffe9bf;
+  color: black;
+}
+
+.button1:active {
+  background-color: orange;
+  color: black;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  color: #222;
+  font-family: "Century Gothic"
+}
+</style>
+
+<body>
+
+<div class="header">
+  <h1>Teaching Ms. Ngo: My HTML Drum Machine</h1>
+</div>
+
+ 
+<div class="w3-container">
+<h2 style="font-family:Century Gothic;color:grey; font-size:30px;"><i><b>By Coby</b></i></h2>
+</div>
+
+<div class="w3-container">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/LinnDrum_digital_drum_machine_front_panel_.jpg" alt="The LinnDrum" style="float:right;width:400px;margin-left:15px;">
+<h3 style="text-align:left;font-family:trebuchet MS;color:orange;font-size:25px;"><b>The drum machine</b></h3>
+<p style="text-align:justify;font-family:trebuchet MS;size:20px;">
+One of the most influential inventions in music was the creation of drum machines. These devices would be able to create drum sounds and patterns without the hassle of using a real drummer. Some notable drum machines include the Roland TR-808, TR-909, and LinnDrum. The 808 was a drum machine created in the early 1980s. Though commercially unsuccessful, most due to the fact it didn't sound realistic, the 808 found a comeback later on during the rise of hip-hop. 808 beats are essential to the hip-hop scene, and can be heard in numerous tracks from the origins of the genre, to the modern day. The 909 was the 808s successor, and was also a commercial failure. However, the 909 would find use in the 90s as early house producers used the drum machine in their work. The 909 has some of the most iconic sounds in music history, and continues to be an important part of modern dance music. The LinnDrum, created by Roger Linn, was the defining drum machine of 1980s music. Used by thousands of artists in the era, its use of real drum samples made it a hit among musicians. Notable artists who used it include Prince, Maddonna, Billy Idol, A-Ha, and many more. My HTML Drum Machine uses samples from the LinnDrum. 
+</p>
+</div>
+
+<br>
+
+<div class="w3-container">
+<img src="https://rolandcorp.com.au/blog/wp-content/uploads/2020/09/record-e-drums-960x600-1.jpg" alt="The LinnDrum" style="float:left;width:400px;margin-right:15px;">
+<h3 style="text-align:right;font-family:trebuchet MS;color:orange;font-size:25px;"><b>How to make a beat</b></h3>
+<p style="text-align:justify;font-family:trebuchet MS;size:20px;">
+The percussion of a song is essential to the composition of the track. It provides the basis for rhythm and creates a groove that bind the track together and works as the backbone for the song. Heres how you can make a beat:<br><br>
+The kick drum is usually the most important part of the drums. It lays the rhythmic foundation and acts as a constant force driving the song forward. Most songs will either have a kick on the 1st and 3rd beat of the measure, or every beat.<br>
+Add a snare or clap on the 2nd and 4th beat. This creates the basic "boots, cats" groove you hear in numerous tracks.<br>
+Add a hi-hat on each eighth note. This quicker rhythm serves as a contrast to the kick and snare/clap. Straight eighth notes can be boring though, so try to add some variation by adding or taking away notes, and changing some to an open hi-hat.<br>
+Add a crash or a ride cymbal at the beginning of a new section. This emphasizes the start of the new part of the song.<br>
+This is where you get creative! Add extra kicks or snares to add some variation and fluidity. You can also add little fills using the toms, rim, and cowbell. This is what makes your beat interesting and unique.
+
+</p>
+</div>
+
+<br>
+
+<div class="w3-container">
+<img src="https://langate.com/wp-content/uploads/2020/12/code-refactoring.jpg" style="float:right;width:400px;margin-left:15px;">
+<h3 style="text-align:left;font-family:trebuchet MS;color:orange;font-size:25px;"><b>How to use my drum machine</b></h3>
+<p style="text-align:justify;font-family:trebuchet MS;size:20px;">
+Below you will see a 4 x 3 grid with drum icons. These are the drum pads of the drum machine! Click each one to get a different drum sound. You can also use the top row of your keyboard (numbers and symbols) to drum. Here is what each pad and key plays:<br><br>
+<b>1 or leftmost bottom pad</b> - Kick Drum <br>
+<b>2 or 2nd leftmost bottom pad</b> - Rim Shot <br>
+<b>3 or 2nd rightmost bottom pad</b> - Snare <br>
+<b>4 or rightmost bottom pad</b> - Clap <br>
+<b>5 or leftmost middle pad</b> - Closed Hi-Hat <br>
+<b>6 or 2nd leftmost middle pad</b> - Open Hi-Hat <br>
+<b>7 or 2nd rightmost middle pad</b> - Low Tom <br>
+<b>8 or rightmost middle pad</b> - Mid Tom <br>
+<b>9 or leftmost top pad</b> - High Tom <br>
+<b>0 or 2nd leftmost top pad</b> - Crash Cymbal <br>
+<b>- or 2nd rightmost top pad</b> - Ride Cymbal <br>
+<b>= or rightmost top pad</b> - Cowbell <br><br>
+I spent a lot of time coding this, so I hope you enjoy rocking out playing my HTML Drum Machine!
+</p>
+</div>
+
+<!--PADS-->
+<br><br><br><br>
+<center>
+<button class="button button1" id="pad_tom3"><img src="https://static.thenounproject.com/png/901567-200.png" style="width:150px;height:150px;"></button><button class="button button1" id="pad_crash"><img src="https://i.imgur.com/wCetfa0.png" style="width:150px;height:150px;"></button><button class="button button1" id="pad_ride"><img src="https://i.imgur.com/Y2PM0q2.png" style="width:150px;height:150px;"></button><button class="button button1" id="pad_cowbell"><img src="https://static.thenounproject.com/png/1868563-200.png" style="width:150px;height:150px;"></button><br><button class="button button1" id="pad_CHH"><img src="https://i.imgur.com/K43y3pr.png" style="width:150px;height:150px;"></button><button class="button button1" id="pad_OHH"><img src="https://i.imgur.com/jCijAV9.png" style="width:150px;height:150px;"></button><button class="button button1" id="pad_tom1"><img src="https://i.imgur.com/XOkSl4x.png" style="width:150px;height:150px;"></button><button class="button button1" id="pad_tom2"><img src="https://static.thenounproject.com/png/901572-200.png" style="width:150px;height:150px;"></button><br><button class="button button1" id="pad_kick"><img src="https://i.imgur.com/2zDxSgY.png" style="width:150px;height:150px;"></button><button class="button button1" id="pad_rim"><img src="https://static.thenounproject.com/png/1309229-200.png" style="width:150px;height:150px;"></button><button class="button button1" id="pad_snare"><img src="https://i.imgur.com/KJ9Xhf1.png" style="width:150px;height:150px;"></button><button class="button button1" id="pad_clap"><img src="https://i.imgur.com/QUeHNcm.png" style="width:150px;height:150px;"></button>
+</center>
+<br><br><br><br>
+
+
+<!--SECRET SAUCE-->
+
+<script type="text/javascript">
+	var channel_max = 10;
+	audiochannels = new Array();
+	for (a=0;a<channel_max;a++) {
+		audiochannels[a] = new Array();
+		audiochannels[a]['channel'] = new Audio();
+		audiochannels[a]['finished'] = -1;
+	}
+	function play_multi_sound(s) {
+		for (a=0;a<audiochannels.length;a++) {
+			thistime = new Date();
+			if (audiochannels[a]['finished'] < thistime.getTime()) {
+				audiochannels[a]['finished'] = thistime.getTime() + document.getElementById(s).duration*1000;
+				audiochannels[a]['channel'].src = document.getElementById(s).src;
+				audiochannels[a]['channel'].load();
+				audiochannels[a]['channel'].play();
+				break;
+			}
+		}
+	}
+</script>
+
+
+<!--AUDIO-->
+
+<audio id="kick" src="https://cdn.discordapp.com/attachments/750431666673025174/855207408872062976/Reverb_LinnDrum_Sample_Pack_Kick_Hard.wav" preload="auto"></audio>
+<audio id="rim" src="https://cdn.discordapp.com/attachments/750431666673025174/855207505729683497/Reverb_LinnDrum_Sample_Pack_Sidestick.wav" preload="auto"></audio>
+<audio id="snare" src="https://cdn.discordapp.com/attachments/750431666673025174/855207593881632768/Reverb_LinnDrum_Sample_Pack_Snare_Hard.wav" preload="auto"></audio>
+<audio id="clap" src="https://cdn.discordapp.com/attachments/750431666673025174/855207215962390528/Reverb_LinnDrum_Sample_Pack_Clap.wav" preload="auto"></audio>
+<audio id="CHH" src="https://cdn.discordapp.com/attachments/750431666673025174/855207340068306954/Reverb_LinnDrum_Sample_Pack_Hat_Close.wav" preload="auto"></audio>
+<audio id="OHH" src="https://cdn.discordapp.com/attachments/750431666673025174/855207371680120842/Reverb_LinnDrum_Sample_Pack_Hat_Open.wav" preload="auto"></audio>
+<audio id="tom1" src="https://cdn.discordapp.com/attachments/750431666673025174/855207655235911710/Reverb_LinnDrum_Sample_Pack_Tom3.wav" preload="auto"></audio>
+<audio id="tom2"src="https://cdn.discordapp.com/attachments/750431666673025174/855207650600681472/Reverb_LinnDrum_Sample_Pack_Tom2.wav" preload="auto"></audio>
+<audio id="tom3" src="https://cdn.discordapp.com/attachments/750431666673025174/855207642782629918/Reverb_LinnDrum_Sample_Pack_Tom1.wav" preload="auto"></audio>
+<audio id="crash" src="https://cdn.discordapp.com/attachments/750431666673025174/855207312406216705/Reverb_LinnDrum_Sample_Pack_Crash.wav" preload="auto"></audio>
+<audio id="ride" src="https://cdn.discordapp.com/attachments/750431666673025174/855207465964798002/Reverb_LinnDrum_Sample_Pack_Ride_Hard.wav" preload="auto"></audio>
+<audio id="cowbell" src="https://cdn.discordapp.com/attachments/750431666673025174/855207279149711369/Reverb_LinnDrum_Sample_Pack_Cowbell.wav" preload="auto"></audio>
+
+
+<!--DRUMS-->
+
+<!--Kick-->
+<script>
+document.addEventListener('keydown', function(e) {
+    if (e.keyCode == 49) {
+    if (e.repeat) return
+    javascript:play_multi_sound('kick')
+  }
+});
+</script>
+
+<script>
+document.getElementById('pad_kick').onclick = function(){
+javascript:play_multi_sound('kick')
+}
+</script>
+
+<!--Rim-->
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.keyCode == 50) {
+    if (e.repeat) return
+    javascript:play_multi_sound('rim')
+  }
+});
+</script>
+
+<script>
+document.getElementById('pad_rim').onclick = function(){
+javascript:play_multi_sound('rim')
+}
+</script>
+
+<!--Snare-->
+
+
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.keyCode == 51) {
+    if (e.repeat) return
+    javascript:play_multi_sound('snare')
+  }
+});
+</script>
+
+<script>
+document.getElementById('pad_snare').onclick = function(){
+javascript:play_multi_sound('snare')
+}
+</script>
+
+<!--Clap-->
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.keyCode == 52) {
+    if (e.repeat) return
+    javascript:play_multi_sound('clap')
+  }
+});
+</script>
+
+<script>
+document.getElementById('pad_clap').onclick = function(){
+javascript:play_multi_sound('clap')
+}
+</script>
+
+<!--Closed Hi-Hat-->
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.keyCode == 53) {
+    if (e.repeat) return
+    javascript:play_multi_sound('CHH')
+  }
+});
+</script>
+
+<script>
+document.getElementById('pad_CHH').onclick = function(){
+javascript:play_multi_sound('CHH')
+}
+</script>
+
+<!--Open Hi-Hat-->
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.keyCode == 54) {
+  if (e.repeat) return
+    javascript:play_multi_sound('OHH')
+  }
+});
+</script>
+
+<script>
+document.getElementById('pad_OHH').onclick = function(){
+javascript:play_multi_sound('OHH')
+}
+</script>
+
+<!--Low Tom-->
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.keyCode == 55) {
+  if (e.repeat) return
+    javascript:play_multi_sound('tom1')
+  }
+});
+</script>
+
+<script>
+document.getElementById('pad_tom1').onclick = function(){
+document.getElementById('tom1').play();
+}
+</script>
+
+<!--Mid Tom-->
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.keyCode == 56) {
+  if (e.repeat) return
+    javascript:play_multi_sound('tom2')
+  }
+});
+</script>
+
+<script>
+document.getElementById('pad_tom2').onclick = function(){
+javascript:play_multi_sound('tom2')
+}
+</script>
+
+<!--High Tom-->
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.keyCode == 57) {
+  if (e.repeat) return
+    javascript:play_multi_sound('tom3')
+  }
+});
+</script>
+
+<script>
+document.getElementById('pad_tom3').onclick = function(){
+javascript:play_multi_sound('tom3')
+}
+</script>
+
+<!--Crash-->
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.keyCode == 48) {
+  if (e.repeat) return
+    javascript:play_multi_sound('crash')
+  }
+});
+</script>
+
+<script>
+document.getElementById('pad_crash').onclick = function(){
+javascript:play_multi_sound('crash')
+}
+</script>
+
+<!--Ride-->
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.keyCode == 189) {
+  if (e.repeat) return
+    javascript:play_multi_sound('ride')
+  }
+});
+</script>
+
+<script>
+document.getElementById('pad_ride').onclick = function(){
+javascript:play_multi_sound('ride')
+}
+</script>
+
+<!--Cowbell-->
+<script>
+document.addEventListener('keydown', function(e) {
+  if (e.keyCode == 187) {
+  if (e.repeat) return
+    javascript:play_multi_sound('cowbell')
+  }
+});
+</script>
+
+<script>
+document.getElementById('pad_cowbell').onclick = function(){
+javascript:play_multi_sound('cowbell')
+}
+</script>
+
+
+<div class="footer">
+    <marquee scrollamount="2" scrolldelay="10" truespeed="truespeed">Created by Coby</marquee>
+</div>
+
+</body>
+
+</html>
